@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Border Radius Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="box" id="box"></div>
+    <svg id="svg" width="200" height="200">
+      <circle class="handle" id="tl" cx="0" cy="0" r="8"></circle>
+      <circle class="handle" id="tr" cx="200" cy="0" r="8"></circle>
+      <circle class="handle" id="br" cx="200" cy="200" r="8"></circle>
+      <circle class="handle" id="bl" cx="0" cy="200" r="8"></circle>
+    </svg>
+  </div>
+  <!-- CSS code OUTSIDE the wrapper -->
+  <p id="cssCode">border-radius: 0px 0px 0px 0px / 0px 0px 0px 0px;</p>
+  
+  <script src="script.js"></script>
+</body>
+</html>
